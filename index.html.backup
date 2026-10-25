@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Network engineering portfolio featuring Cisco, VLAN, MikroTik, Linux and Windows Server labs.">
+  <title>Network Engineer | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="logo" href="#home">NET<span>ENGINEER</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <p class="eyebrow">NETWORKING • LINUX • INFRASTRUCTURE</p>
+      <h1>Building Networks.<br><span>Solving Problems.</span></h1>
+      <p class="intro">
+        Hello! I'm an aspiring Junior Network Engineer developing
+        practical skills in Cisco networking, MikroTik, Linux and
+        Windows Server administration.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">Explore My Projects</a>
+        <a class="btn secondary"
+           href="https://github.com/Tola999930">My GitHub</a>
+      </div>
+      <p class="availability">● Learning, building and documenting real lab projects</p>
+    </div>
+    <div class="network-art" aria-label="Network illustration">
+      <div class="orbit orbit-one"></div>
+      <div class="orbit orbit-two"></div>
+      <div class="core">NETWORK<br>LAB</div>
+      <div class="node node-one">RTR</div>
+      <div class="node node-two">SW</div>
+      <div class="node node-three">PC</div>
+      <div class="node node-four">SRV</div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <p class="eyebrow">01 / ABOUT ME</p>
+      <h2>My Networking Journey</h2>
+      <p class="section-intro">
+        I am building a foundation in network engineering through
+        hands-on labs, configuration practice, troubleshooting and
+        technical documentation. My goal is to start my career in
+        network support or IT infrastructure.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">02 / TECHNICAL SKILLS</p>
+      <h2>Tools & Technologies</h2>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <span class="skill-icon">01</span>
+          <h3>Cisco Networking</h3>
+          <p>Packet Tracer, VLANs, trunking, IPv4 and subnetting.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">02</span>
+          <h3>MikroTik</h3>
+          <p>RouterOS, IP addressing, DHCP and routing labs.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">03</span>
+          <h3>Linux</h3>
+          <p>Kali Linux, terminal commands, Git and basic system tools.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">04</span>
+          <h3>Windows Server</h3>
+          <p>Learning Active Directory, DNS and DHCP administration.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">03 / SELECTED WORK</p>
+      <h2>My Projects</h2>
+      <p class="section-intro">
+        Practical labs documenting configuration, testing and
+        troubleshooting. Project status will be updated as each
+        lab is completed.
+      </p>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-banner banner-cisco">
+            <span>CISCO</span>
+            <span>VLAN / L2</span>
+          </div>
+          <div class="project-body">
+            <p class="project-type">NETWORKING</p>
+          <h3>Company VLAN Network</h3>
+            <p>Design separate HR, IT and Sales networks using VLANs,
+              access ports and trunk links.</p>
+            <p class="tags">Packet Tracer · IPv4 · Switching</p>
+            <p class="status">Status: In progress</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-banner banner-server">
+            <span>WINDOWS</span>
+            <span>AD / DNS / DHCP</span>
+          </div>
+          <div class="project-body">
+            <p class="project-type">SYSTEM ADMINISTRATION</p>
+            <h3>Windows Server Lab</h3>
+            <p>Build a domain lab, configure directory services and
+              test client connectivity and name resolution.</p>
+            <p class="tags">VirtualBox · AD DS · DNS · DHCP</p>
+            <p class="status">Status: Planned / learning</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-banner banner-mikrotik">
+            <span>MIKROTIK</span>
+            <span>ROUTING</span>
+          </div>
+          <div class="project-body">
+            <p class="project-type">NETWORK SERVICES</p>
+            <h3>MikroTik Router Lab</h3>
+            <p>Practice IP addressing, DHCP, VLAN interfaces,
+              routing and end-to-end connectivity tests.</p>
+            <p class="tags">RouterOS · GNS3 · Troubleshooting</p>
+            <p class="status">Status: In progress</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section workflow">
+      <p class="eyebrow">04 / MY WORKFLOW</p>
+      <h2>How I Troubleshoot</h2>
+      <div class="steps">
+        <div><strong>01</strong><p>Identify the problem</p></div>
+        <div><strong>02</strong><p>Check links and IP settings</p></div>
+        <div><strong>03</strong><p>Inspect VLANs and routing</p></div>
+        <div><strong>04</strong><p>Test, fix and document</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">05 / CONTACT</p>
+      <h2>Let's Connect</h2>
+      <p>I'm working toward a career in network engineering and IT support.</p>
+      <a class="btn primary"
+         href="https://github.com/Tola999930">Visit My GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Network Engineer Portfolio</p>
+    <p>Built with HTML & CSS · Hosted on GitHub Pages</p>
+  </footer>
+</body>
+</html>
